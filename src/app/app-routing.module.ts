@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PythonComponent } from './python/python.component';
+import { PydidComponent } from './components/pydid/pydid.component';
 
 const routes: Routes = [
-  { path: 'python', component: PythonComponent }
+  { path: 'python', component: PydidComponent }
 ];
 
 @NgModule({

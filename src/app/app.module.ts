@@ -4,12 +4,16 @@ import { FormsModule } from '@angular/forms'; // This is like a python module th
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PythonComponent } from './python/python.component';
+import { PydidComponent } from './components/pydid/pydid.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PythonComponent
+    PydidComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
