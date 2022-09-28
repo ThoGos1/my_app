@@ -26,10 +26,14 @@
 .logim {
     width: 60px;
     height: 60px;
+    margin-right: 20px;
 }
 
 
-
+.navitem {
+    color: #000000;
+    text-decoration: none;
+}
 
 
 
