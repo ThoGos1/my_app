@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { PydidComponent } from './components/pydid/pydid.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { PlainComponent } from './components/plain/plain.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     PydidComponent,
     HeaderComponent,
     FooterComponent,
-    PlainComponent,
     PageNotFoundComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
