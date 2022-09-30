@@ -1,0 +1,19 @@
+
+<div *ngIf="notePost$ | async as notePost">
+
+    {{ notePost | json }}
+
+    <div>
+        <h2> {{ notePost.fields.title }} </h2>
+        <h3> {{ notePost.fields.content }} </h3>
+        <markdown ngPreserveWhitespaces>
+           {{ notePost.fields.content }}
+        </markdown>
+
+        <markdown ngPreserveWhitespaces>
+            #### Heading level 4
+        </markdown>
+
+    </div>
+
+</div>
